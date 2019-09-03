@@ -1,0 +1,208 @@
+Date: Tue, 3 Sep 2019 21:17:35 +0800
+Message-ID: <00011f0c$bf079d40$e043cf61$YinXiangBiJi>
+MIME-Version: 1.0
+Content-Type: text/html; 
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Evernote® v6.18.14.753
+
+<html>
+<head>
+  <title>Evernote Export</title>
+  <basefont face=3D"=E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91" size=3D"2" />
+  <meta http-equiv=3D"Content-Type" =
+content=3D"text/html;charset=3Dutf-8" />
+  <meta name=3D"exporter-version" content=3D"YXBJ Windows/600753 (zh-CN, =
+DDL); Windows/10.0.0 (Win64);"/>
+  <style>
+    body, td {
+      font-family: =E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+<a name=3D"1644"/>
+
+<div>=0A<span><div><div>=E7=BD=91=E5=9D=80=EF=BC=9A<a =
+href=3D"https://transvar.readthedocs.io/en/latest/download_and_install.ht=
+ml">https://transvar.readthedocs.io/en/latest/download_and_install.html</=
+a></div><div><br/></div><div><font style=3D"font-size: 12pt; color: =
+rgb(166, 0, 196);">=E5=AE=89=E8=A3=85</font>=EF=BC=9A<span =
+style=3D"text-decoration: =
+underline;">=E8=AF=A5=E8=BD=AF=E4=BB=B6=E5=BF=85=E9=A1=BB=E5=BE=97=E7=94=A8=
+python2.7</span></div><div style=3D"box-sizing: border-box; padding: =
+8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, =
+monospace; font-size: 12px; color: rgb(51, 51, 51); border-radius: 4px; =
+background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, =
+0.15);-en-codeblock:true;"><div>pip install --user =
+transvar</div></div><div>=E8=BF=99=E6=A0=B7=E5=8F=AA=E6=98=AF=E5=BD=A2=E6=
+=88=90=E4=BA=86=E8=AF=A5=E8=BD=AF=E4=BB=B6=E7=9A=84=E4=B8=80=E4=BA=9B=E9=85=
+=8D=E7=BD=AE=E6=96=87=E4=BB=B6=EF=BC=8C=E5=9C=A8~/.local/lib/python2.7/si=
+te-packages/transvar=E3=80=82=E7=9C=9F=E6=AD=A3=E7=9A=84=E8=BD=AF=E4=BB=B6=
+=E9=9C=80=E8=A6=81=E5=8F=A6=E5=A4=96=E4=B8=8B=E8=BD=BD</div><div><br/></d=
+iv><div>github:<a =
+href=3D"https://github.com/zwdzwd/transvar">https://github.com/zwdzwd/tra=
+nsvar</a></div><div>=E5=A4=8D=E5=88=B6=E8=BD=AF=E4=BB=B6=E8=B7=AF=E5=BE=84=
+=EF=BC=8C=E7=84=B6=E5=90=8E=E5=9C=A8=E6=9C=8D=E5=8A=A1=E5=99=A8=E4=B8=8A=E4=
+=B8=8B=E8=BD=BD=EF=BC=88=E4=B8=8B=E8=BD=BD=E5=88=B0=E4=BD=A0=E6=83=B3=E8=A6=
+=81=E7=9A=84=E4=BD=8D=E7=BD=AE=EF=BC=89</div><div style=3D"box-sizing: =
+border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, =
+&quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, =
+51); border-radius: 4px; background-color: rgb(251, 250, 248); border: =
+1px solid rgba(0, 0, 0, 0.15);-en-codeblock:true;"><div>git =
+clone=C2=A0https://github.com/zwdzwd/transvar.git</div></div><div>=E8=BF=99=
+=E6=A0=B7=E5=B0=B1=E6=9C=89=E4=BA=86=E6=AD=A4=E8=BD=AF=E4=BB=B6=E3=80=82<=
+/div><div><br/></div><div>=E6=8E=A5=E7=9D=80=EF=BC=8C=E9=85=8D=E7=BD=AE=E9=
+=9C=80=E8=A6=81=E7=9A=84=E5=8F=82=E8=80=83=E6=96=87=E4=BB=B6=EF=BC=8C=E5=A6=
+=82hg19 =
+fasts=E6=96=87=E4=BB=B6=E7=AD=89=E3=80=90=E5=8F=82=E8=80=83=E7=BD=91=E7=AB=
+=99Quick Start=E3=80=91</div><div style=3D"box-sizing: border-box; =
+padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier =
+New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); =
+border-radius: 4px; background-color: rgb(251, 250, 248); border: 1px =
+solid rgba(0, 0, 0, 0.15);-en-codeblock:true;"><div># set up =
+databases=E8=AE=BE=E7=BD=AE=E6=95=B0=E6=8D=AE=E5=BA=93</div><div>transvar=
+ config --download_anno --refversion hg19</div><div><br/></div><div># in =
+case you don't have a =
+reference=E5=A6=82=E6=9E=9C=E6=B2=A1=E6=9C=89=E5=8F=82=E8=80=83=E6=96=87=E4=
+=BB=B6=E7=9A=84=E8=AF=9D</div><div>transvar config --download_ref =
+--refversion =
+hg19</div></div><div>=E8=BF=99=E4=BA=9B=E6=96=87=E4=BB=B6=E8=A2=AB=E4=B8=8B=
+=E8=BD=BD=E5=88=B0~/.local/lib/python2.7/site-packages/transvar/transvar.=
+download</div><div>=E5=90=8C=E4=B8=8A=E9=9D=A2=E7=9A=84=E9=85=8D=E7=BD=AE=
+=E6=96=87=E4=BB=B6=E5=9C=A8=E4=B8=80=E4=B8=AA=E7=9B=AE=E5=BD=95=E4=B8=8B<=
+/div><div><br/></div><div><font style=3D"font-size: 14pt; color: =
+rgb(166, 0, 196);">=E7=94=A8=E6=B3=95</font></div><div><span =
+style=3D"font-size: 11pt;"><br/></span></div><div><span =
+style=3D"font-size: =
+11pt;">=E9=80=89=E6=8B=A9=E6=B3=A8=E9=87=8A=E5=BA=93=EF=BC=9Aensembl=EF=BC=
+=8Cccds, refseq, =
+=E6=88=91=E8=AE=A4=E4=B8=BAensembl=E6=98=AF=E7=BB=8F=E5=B8=B8=E4=BD=BF=E7=
+=94=A8=E7=9A=84=E4=B8=80=E4=B8=AA=EF=BC=8C=E6=89=80=E4=BB=A5=E9=80=89=E5=AE=
+=83</span><br/></div><div><font style=3D"font-size: =
+11pt;"><br/></font></div><div><span style=3D"box-sizing: border-box; =
+display: inline-block;">=EF=BC=88=E4=B8=80=EF=BC=89Genomic level =
+annotation (-ganno)</span></div><ul><li><div><span style=3D"box-sizing: =
+border-box; display: =
+inline-block;">=E8=BE=93=E5=85=A5=E6=A0=BC=E5=BC=8F</span></div></li></ul=
+><div><span style=3D"box-sizing: border-box; display: =
+inline-block;"><br/></span></div><div><span style=3D"box-sizing: =
+border-box; display: inline-block;">=EF=BC=88=E4=BA=8C=EF=BC=89cDNA =
+level annotation (-canno)</span></div><ul><li><div><span =
+style=3D"box-sizing: border-box; display: =
+inline-block;">=E8=BE=93=E5=85=A5=E6=A0=BC=E5=BC=8F</span></div></li></ul=
+><div><span style=3D"box-sizing: border-box; display: =
+inline-block;">=EF=BC=88=E4=B8=89=EF=BC=89Protein level annotation =
+(-panno)</span></div><ul><li><div><span style=3D"box-sizing: border-box; =
+display: =
+inline-block;">=E8=BE=93=E5=85=A5=E6=A0=BC=E5=BC=8F</span></div></li></ul=
+><div><br/></div><div style=3D"box-sizing: border-box; padding: 8px; =
+font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, =
+monospace; font-size: 12px; color: rgb(51, 51, 51); border-radius: 4px; =
+background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, =
+0.15);-en-codeblock:true;"><div># panno =
+=E5=8F=82=E6=95=B0=E9=80=89=E6=8B=A9</div><div>--longest=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0consider =
+only longest transcript, =
+=E8=BF=99=E7=A7=8D=E8=AF=95=E8=BF=87=E4=B9=8B=E5=90=8E=E5=8F=91=E7=8E=B0=E7=
+=BB=93=E6=9E=9C=E5=8F=98=E5=B0=91=EF=BC=8C=E5=8F=AF=E8=83=BD=E6=98=AF=E6=88=
+=91=E8=BE=93=E5=85=A5=E7=9A=84amino =
+acid=E4=B8=8D=E5=9C=A8=E6=9C=80=E9=95=BF=E8=BD=AC=E5=BD=95=E6=9C=AC=E4=B8=
+=8A</div><div>--longestcoding=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0co=
+nsider only protein-coding transcript with =
+longestcds=EF=BC=8C=E8=BF=99=E7=A7=8D=E8=AF=95=E8=BF=87=E4=B9=8B=E5=90=8E=
+=E5=8F=91=E7=8E=B0=E7=BB=93=E6=9E=9C=E4=B9=9F=E6=98=AF=E5=8F=98=E5=B0=91=EF=
+=BC=8C=E5=90=8C=E4=B8=8A=E9=9D=A2=E5=8F=AF=E8=83=BD=E6=98=AF=E7=9B=B8=E5=90=
+=8C=E7=9A=84=E5=8E=9F=E5=9B=A0</div><div>--oneline=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0output one line =
+for each =
+query=EF=BC=8C=E8=BF=99=E7=A7=8D=E4=BA=8B=E4=BC=9A=E8=BE=93=E5=87=BA=E5=88=
+=B0=E4=B8=80=E8=A1=8C=EF=BC=8C=E4=BD=86=E6=98=AF=E6=98=AF=E4=B8=80=E7=9B=B4=
+=E5=BE=80=E5=90=8E=E5=8A=A0=EF=BC=8C=E6=89=80=E4=BB=A5=E5=AF=BC=E8=87=B4=E6=
+=96=87=E4=BB=B6=E7=9A=84=E5=88=97=E6=95=B0=E4=B8=8D=E4=B8=80=E8=87=B4</di=
+v><div>--suspend=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0suspend execution upon error, rather than append to =
+the info field =
+=E5=BD=93=E6=9C=89=E9=94=99=E8=AF=AF=E4=BF=A1=E6=81=AF=E7=9A=84=E6=97=B6=E5=
+=80=99=E4=B8=8D=E6=89=A7=E8=A1=8C=EF=BC=9F=E8=80=8C=E4=B8=8D=E6=98=AF=E8=BE=
+=93=E5=87=BA=E5=88=B0=E6=96=87=E4=BB=B6=E4=B8=AD=E7=9A=84INFO=E5=AD=97=E6=
+=AE=B5=EF=BC=8C=E6=88=91=E8=A7=89=E5=BE=97=E8=BF=98=E6=98=AF=E8=AE=A9=E8=BE=
+=93=E5=87=BA=E6=AF=94=E8=BE=83=E5=A5=BD</div><div>-l =
+=E4=BC=A0=E5=85=A5=E6=96=87=E4=BB=B6</div><div>-o =
+O=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0columns to be printed in output =
+(1-based), e.g.,3,4,5-10 =
+=E6=8C=87=E5=AE=9A=E8=BE=93=E5=87=BA=E5=88=97</div><div>--skipheader=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0skip header =
+=E4=B8=8D=E7=9F=A5=E9=81=93=E5=85=B7=E4=BD=93=E6=98=AF=E4=BB=80=E4=B9=88=E6=
+=84=8F=E6=80=9D</div><div>--seqmax =
+SEQMAX=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0maximum reference =
+sequence to output (10), use -1 for infinity</div><div>--max-candidates =
+NC=C2=A0=C2=A0=C2=A0maximum candidate output for fuzzy search =
+=E6=A8=A1=E7=B3=8A=E6=9F=A5=E8=AF=A2=EF=BC=8C=E5=B0=BD=E5=8F=AF=E8=83=BD=E5=
+=A4=9A=E5=9C=B0=E8=BE=93=E5=87=BA=E7=BB=93=E6=9E=9C=E3=80=82 =
+=E4=B8=BA=E4=BA=86=E9=81=BF=E5=85=8D=E9=94=99=E8=AF=AF=EF=BC=8C=E4=B8=8D=E8=
+=BF=99=E6=A0=B7=E5=81=9A</div><div>--aa3=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0use =
+3 letter code for protein output =
+=E6=88=91=E4=B8=8D=E9=9C=80=E8=A6=81</div></div><div><br/></div><div>=E6=AD=
+=A4=E6=97=B6=EF=BC=8C=E7=94=A8=E4=B8=80=E4=B8=AA=E4=BE=8B=E5=AD=90=E6=B5=8B=
+=E8=AF=95</div><div style=3D"box-sizing: border-box; padding: 8px; =
+font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, =
+monospace; font-size: 12px; color: rgb(51, 51, 51); border-radius: 4px; =
+background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, =
+0.15);-en-codeblock:true;"><div>$ transvar panno -i 'PIK3CA:p.E545K' =
+--ucsc --ccds</div><div>$=C2=A0transvar panno -i 'PIK3CA:p.E545K' =
+--ensembl --refversion hg19</div><div>$ transvar panno -i =
+'ENSP00000255688' --ensembl --refversion =
+hg19</div></div><div><br/></div><div><font style=3D"font-size: 14pt; =
+color: rgb(166, 0, 196);">=E7=BB=93=E6=9E=9C</font></div><div =
+style=3D"box-sizing: border-box; padding: 8px; font-family: Monaco, =
+Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; =
+color: rgb(51, 51, 51); border-radius: 4px; background-color: rgb(251, =
+250, 248); border: 1px solid rgba(0, 0, 0, =
+0.15);-en-codeblock:true;"><div><font style=3D"font-size: =
+12pt;">transvar panno -i 'BRCA1:R866C' --ensembl --refversion =
+hg19</font></div><div><font style=3D"font-size: =
+12pt;"><br/></font></div><div>input=C2=A0=C2=A0=C2=A0=C2=A0transcript=C2=A0=
+=C2=A0=C2=A0=C2=A0gene=C2=A0=C2=A0=C2=A0=C2=A0strand=C2=A0=C2=A0=C2=A0=C2=
+=A0coordinates(gDNA/cDNA/protein)=C2=A0=C2=A0=C2=A0=C2=A0region=C2=A0=C2=A0=
+=C2=A0=C2=A0info</div><div>BRCA1:R866C=C2=A0=C2=A0=C2=A0=C2=A0ENST0000035=
+7654 =
+(protein_coding)=C2=A0=C2=A0=C2=A0=C2=A0BRCA1=C2=A0=C2=A0=C2=A0=C2=A0-=C2=
+=A0=C2=A0=C2=A0=C2=A0chr17:g.41244952G&gt;A/c.2596C&gt;T/p.R866C=C2=A0=C2=
+=A0=C2=A0=C2=A0inside_[cds_in_exon_10]=C2=A0=C2=A0=C2=A0=C2=A0CSQN=3DMiss=
+ense;reference_codon=3DCGC;candidate_codons=3DTGT,TGC;candidate_mnv_varia=
+nts=3Dchr17:g.41244950_41244952delGCGinsACA;aliases=3DENSP00000350283;sou=
+rce=3DEnsembl</div><div>BRCA1:R866C=C2=A0=C2=A0=C2=A0=C2=A0ENST0000035407=
+1 =
+(protein_coding)=C2=A0=C2=A0=C2=A0=C2=A0BRCA1=C2=A0=C2=A0=C2=A0=C2=A0-=C2=
+=A0=C2=A0=C2=A0=C2=A0chr17:g.41244952G&gt;A/c.2596C&gt;T/p.R866C=C2=A0=C2=
+=A0=C2=A0=C2=A0inside_[cds_in_exon_10]=C2=A0=C2=A0=C2=A0=C2=A0CSQN=3DMiss=
+ense;reference_codon=3DCGC;candidate_codons=3DTGT,TGC;candidate_mnv_varia=
+nts=3Dchr17:g.41244950_41244952delGCGinsACA;aliases=3DENSP00000326002;sou=
+rce=3DEnsembl</div><div>BRCA1:R866C=C2=A0=C2=A0=C2=A0=C2=A0ENST0000034631=
+5 =
+(protein_coding)=C2=A0=C2=A0=C2=A0=C2=A0BRCA1=C2=A0=C2=A0=C2=A0=C2=A0-=C2=
+=A0=C2=A0=C2=A0=C2=A0chr17:g.41244952G&gt;A/c.2596C&gt;T/p.R866C=C2=A0=C2=
+=A0=C2=A0=C2=A0inside_[cds_in_exon_10]=C2=A0=C2=A0=C2=A0=C2=A0CSQN=3DMiss=
+ense;reference_codon=3DCGC;candidate_codons=3DTGT,TGC;candidate_mnv_varia=
+nts=3Dchr17:g.41244950_41244952delGCGinsACA;aliases=3DENSP00000246907;sou=
+rce=3DEnsembl</div><div>BRCA1:R866C=C2=A0=C2=A0=C2=A0=C2=A0ENST0000047118=
+1 =
+(protein_coding)=C2=A0=C2=A0=C2=A0=C2=A0BRCA1=C2=A0=C2=A0=C2=A0=C2=A0-=C2=
+=A0=C2=A0=C2=A0=C2=A0chr17:g.41244952G&gt;A/c.2596C&gt;T/p.R866C=C2=A0=C2=
+=A0=C2=A0=C2=A0inside_[cds_in_exon_10]=C2=A0=C2=A0=C2=A0=C2=A0CSQN=3DMiss=
+ense;reference_codon=3DCGC;candidate_codons=3DTGT,TGC;candidate_mnv_varia=
+nts=3Dchr17:g.41244950_41244952delGCGinsACA;aliases=3DENSP00000418960;sou=
+rce=3DEnsembl</div></div><div>transvar=E7=9A=84=E7=BB=93=E6=9E=9C=E9=92=88=
+=E5=AF=B9=E4=B8=80=E4=B8=AA=E8=BE=93=E5=85=A5=EF=BC=8C=E5=BE=97=E5=88=B0=E4=
+=BA=86=E6=89=80=E6=9C=89=E7=9A=84transcriptID, =
+=E5=B9=B6=E4=B8=8D=E6=98=AF=E5=AF=B9=E5=BA=94=E7=9A=84ID=EF=BC=8C=E8=BF=99=
+=E5=B0=B1=E5=BE=88=E7=83=A6=E4=BA=86=EF=BC=8C=E5=A6=82=E6=9E=9C=E6=88=91=E8=
+=A6=81=E5=BE=97=E5=88=B0=E6=9F=90=E4=B8=80=E7=AA=81=E5=8F=98=E5=AF=B9=E5=BA=
+=94=E7=9A=84ID=EF=BC=8C=E8=BF=98=E5=BE=97=E9=80=9A=E8=BF=87=E5=88=AB=E7=9A=
+=84=E6=96=B9=E5=BC=8F=E3=80=82</div><div><br/></div><div><br/></div></div=
+></span>=0A</div></body></html>
+ 
