@@ -1,5 +1,8 @@
 INSTALL
+···
 pip install --user transvar
+···
+
 
 USEAGE
 1.Genomic level annotation (-ganno)
