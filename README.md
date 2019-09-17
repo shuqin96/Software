@@ -1,2 +1,5 @@
 # Software
-Here is the installation guide, usage and precautions for the software I have used.
+[TransVar](https://bioinformatics.mdanderson.org/transvar/) - a trans-level variant annotator for precision genomics  
+[SnpEff](http://snpeff.sourceforge.net/SnpEff_manual.html) - SnpEff is a variant annotation and effect prediction tool. It annotates and predicts the effects of genetic variants (such as amino acid changes).   
+[BISQUE](http://bisque.yulab.org/) - BISQUE (The Biological Sequence Exchange) is a bioinformatics tool enabling locus and variant-specific conversion among human gene, transcript, and protein identifiers from several popular databases. BISQUE implements a graph-traversal algorithm to allow conversion between any two database identifiers, including biologically downstream (gene -> transcript -> protein) and upstream conversions (protein -> transcript -> gene).   
+[ANNOVAR](http://annovar.openbioinformatics.org/en/latest/) - ANNOVAR is an efficient software tool to utilize update-to-date information to functionally annotate genetic variants detected from diverse genomes (including human genome hg18, hg19, hg38, as well as mouse, worm, fly, yeast and many others).
