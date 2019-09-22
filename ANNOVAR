@@ -1,0 +1,8 @@
+Github: https://github.com/WGLab/doc-ANNOVAR
+Documentation: http://annovar.openbioinformatics.org/en/latest/
+Paper: https://academic.oup.com/nar/article/38/16/e164/1749458
+
+# download appropriate database files using annotate_variation.pl
+annotate_variation.pl -buildver hg19 -downdb -webfrom annovar exac03 humandb/
+# run the table_annovar.pl program to annotate the variants
+table_annovar.pl input humandb/ -buildver hg19 -out outfile.name -remove -protocol exac03 
