@@ -1,6 +1,12 @@
 Website: http://snpeff.sourceforge.net/
 Documentation: http://snpeff.sourceforge.net/SnpEff_manual.html
 
-# 该工具是专门用来处理vcf文件的，可以根据条件筛选需要的行、也可以提取需要的列（包括INFO字段中的）、对vcf文件进行合并、分割、进行注释（比如phastCons score）
-# If we prefer to have one effect per line, then we can use the vcfEffOnePerLine.pl provided with SnpEff distribution.
-该工具有一个功能是将一行的突变对应的effect(或其它信息)分成多行，但是对于一行有两个ALT的就很鸡肋，因为它不会把ALT对应的effect输出。
+This tool is specially used to process vcf files. 
+You can filter the required rows according to the conditions, extract the required columns (including the INFO field), merge, split, and comment on the vcf file (such as phastCons score).
+
+# Select 'PASS' Filter data
+java -jar /data/wangs/webserve/snpEff/SnpSift.jar filter '(FILTER = 'PASS')' ExAC_nonTCGA.r1.sites.vep.vcf > ExAC_nonTCGA.r1.sites.filter_PASS.vcf
+# Extract the required columns：CHROM POS REF ALT AF CSQ
+java -jar /data/wangs/webserve/snpEff/SnpSift.jar extractFields -s ',' -e '.' ExAC_nonTCGA.r1.sites.filter_PASS.vcf CHROM POS REF ALT AF CSQ > ExAC_nonTCGA.r1.sites.filter_PASS_need_cols.tsv
+
+# Please read the official documentation for more use of the tool.
