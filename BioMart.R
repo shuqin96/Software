@@ -40,3 +40,5 @@ result1 <- getBM(mart = ensembl, filters = "uniprotswissprot", values = 'Q13068'
 result2 <- getBM(mart = ensembl, filters = "hgnc_symbol", values = 'TP53', attributes = c("hgnc_symbol","ensembl_transcript_id"))
 # 3.get the nucleotide of the specified site
 result3 <- getBM(mart = ensembl, filters = c("chromosome_name",'start','end'), values = list(chromosome = '1', start = '183196716', end='183196716'), attributes = c("ensembl_gene_id","ensembl_transcript_id","allele"))
+# 4.Query all protein sequences of the two genes
+protein = getSequence(id=c(100, 5728),type="entrezgene",seqType="peptide", mart=ensembl)
