@@ -1,8 +1,8 @@
 
-## ----------------------------------------------------------------------------------------------------
-## Using BioMart convert different database accession number. 
+## --------------------------------------------------------------------------------------------------------------------------------------------
+## The biomaRt package is the R language interface of the BioMart website, which helps users implement the biomart function in the R language.
 ## You can also do this in http://grch37.ensembl.org/biomart/martview/0fd547b7e56dc315bd6e0c030eb44fa5  
-## ----------------------------------------------------------------------------------------------------
+## --------------------------------------------------------------------------------------------------------------------------------------------
 
 rm(list=ls())
 
