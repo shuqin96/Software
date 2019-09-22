@@ -1,17 +1,16 @@
-INSTALL
-···
-pip install --user transvar
-···
-
+Website： https://bioinformatics.mdanderson.org/transvar/
+Document：https://transvar.readthedocs.io/en/latest/
+GitHub:  https://github.com/zwdzwd/transvar
+Paper:  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4772859/
 
 USEAGE
 1.Genomic level annotation (-ganno)
 2.cDNA level annotation (-canno)
 3.Protein level annotation (-panno)
 
-# panno 参数选择
---longest             consider only longest transcript, 这种试过之后发现结果变少，可能是我输入的amino acid不在最长转录本上
---longestcoding       consider only protein-coding transcript with longestcds，这种试过之后发现结果也是变少，同上面可能是相同的原因
+# panno parameter
+--longest             consider only longest transcript, 这种试过之后发现结果变少，可能是输入的amino acid不在最长转录本上
+--longestcoding       consider only protein-coding transcript with longestcds，这种试过之后发现结果也是变少，同上面是相同的原因
 --oneline             output one line for each query，这种事会输出到一行，但是是一直往后加，所以导致文件的列数不一致
 --suspend             suspend execution upon error, rather than append to the info field 当有错误信息的时候不执行？而不是输出到文件中的INFO字段，我觉得还是让输出比较好
 -l 传入文件
@@ -20,3 +19,5 @@ USEAGE
 --seqmax SEQMAX       maximum reference sequence to output (10), use -1 for infinity
 --max-candidates NC   maximum candidate output for fuzzy search 模糊查询，尽可能多地输出结果。 为了避免错误，不建议这样做
 --aa3                 use 3 letter code for protein output 
+
+For specific use, please refer to the official documentation.
