@@ -1,5 +1,5 @@
 Website: http://snpeff.sourceforge.net/
-Documentation: http://snpeff.sourceforge.net/SnpEff_manual.html
+Documentation: http://snpeff.sourceforge.net/SnpSift.html
 
 This tool is specially used to process vcf files. 
 You can filter the required rows according to the conditions, extract the required columns (including the INFO field), merge, split, and comment on the vcf file (such as phastCons score).
