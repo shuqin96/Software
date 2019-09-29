@@ -9,4 +9,5 @@ java -jar /data/wangs/webserve/snpEff/SnpSift.jar filter '(FILTER = 'PASS')' ExA
 # Extract the required columns：CHROM POS REF ALT AF CSQ
 java -jar /data/wangs/webserve/snpEff/SnpSift.jar extractFields -s ',' -e '.' ExAC_nonTCGA.r1.sites.filter_PASS.vcf CHROM POS REF ALT AF CSQ > ExAC_nonTCGA.r1.sites.filter_PASS_need_cols.tsv
 
+# You can use command line option -s to specify multiple field separator and -e to specify how to represent empty fields. 
 # Please read the official documentation for more use of the tool.
