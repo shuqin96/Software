@@ -7,7 +7,8 @@ You can filter the required rows according to the conditions, extract the requir
 # Select 'PASS' Filter data
 java -jar /data/wangs/webserve/snpEff/SnpSift.jar filter '(FILTER = 'PASS')' ExAC_nonTCGA.r1.sites.vep.vcf > ExAC_nonTCGA.r1.sites.filter_PASS.vcf
 # Extract the required columns：CHROM POS REF ALT AF CSQ
-java -jar /data/wangs/webserve/snpEff/SnpSift.jar extractFields -s ',' -e '.' ExAC_nonTCGA.r1.sites.filter_PASS.vcf CHROM POS REF ALT AF CSQ > ExAC_nonTCGA.r1.sites.filter_PASS_need_cols.tsv
+java -jar /data/wangs/webserve/snpEff/SnpSift.jar extractFields -s ',' -e '.' ExAC_nonTCGA.r1.sites.filter_PASS.vcf CHROM POS REF ALT AF[*] CSQ > ExAC_nonTCGA.r1.sites.filter_PASS_need_cols.tsv
 
+# Note:AF[*] means one line can have multiple variant, if want to get all AF, must add [*], otherwise there are no value!!!
 # You can use command line option -s to specify multiple field separator and -e to specify how to represent empty fields. 
 # Please read the official documentation for more use of the tool.
